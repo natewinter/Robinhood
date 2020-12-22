@@ -16,7 +16,6 @@ body {
 }
 
 .app_container {
-  background-color: blue;
   width: 1024px;
   height: 100%;
   display: flex;

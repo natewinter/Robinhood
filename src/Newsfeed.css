@@ -1,4 +1,15 @@
 .newsfeed {
-  background-color: orange;
+  border: 1px solid orange;
   flex: 0.7;
+  color: white;
+}
+
+.newsfeed_portfolioValue {
+  text-align: left;
+}
+.newsfeed_portfolioValue > h1 {
+  margin: 0;
+}
+.newsfeed_portfolioValue > p {
+  margin-top: 0;
 }
