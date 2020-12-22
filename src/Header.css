@@ -42,6 +42,7 @@
 
 .header_menuItems {
   margin-left: 48px;
+  margin-right: 48px;
 }
 
 .header_menuItems > a {
@@ -49,4 +50,8 @@
   font-weight: bold;
   text-decoration: none;
   padding: 0 10px;
+}
+
+.header_menuItems > a:hover {
+  color: #5ac53b;
 }
