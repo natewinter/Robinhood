@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
+
 function LineGraph() {
+  const [graphData, setGraphData] = useState([]);
   const data = [
-    {
-      x: 10,
-      y: 20,
-    },
+    { x: 10, y: 20 },
     { x: 15, y: 10 },
+    { x: 25, y: 24 },
+    { x: 5, y: 19 },
+    { x: 12, y: 4 },
   ];
   return (
     <div className="linegraph">
@@ -27,6 +29,24 @@ function LineGraph() {
               pointHoverRadius: 6,
             },
           ],
+        }}
+        options={{
+          legend: {
+            display: false,
+          },
+          tooltips: {
+            mode: "index",
+            intersect: false,
+          },
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  display: false,
+                },
+              },
+            ],
+          },
         }}
       />
     </div>
