@@ -39,3 +39,14 @@
 .header_searchContainer > input:focus {
   outline: none;
 }
+
+.header_menuItems {
+  margin-left: 48px;
+}
+
+.header_menuItems > a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+}
