@@ -54,3 +54,5 @@ function LineGraph() {
 }
 
 export default LineGraph;
+
+// 1:42:27 making graph line and useeffect stuff
