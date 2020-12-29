@@ -5,7 +5,7 @@ const TOKEN = "bvldmdf48v6qdeqd6470";
 
 const BASE_URL = "https://finnhub.io/api/v1/quote";
 function Stats() {
-  const [stockSata, setstockSata] = useState([]);
+  const [stockData, setstockData] = useState([]);
   const getStocksData = (stock) => {
     return axios
       .get(`${BASE_URL}?symbol=${stock}&token=${TOKEN}`)
