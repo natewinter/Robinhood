@@ -4,6 +4,10 @@
   height: 60px;
   align-items: center;
   padding: 0 24px;
+  cursor: pointer;
+}
+.row:hover {
+  background-color: grey;
 }
 
 .row_intro > h1 {
@@ -27,4 +31,8 @@
 }
 .row_percentage {
   color: #5ac53b;
+}
+
+.row_chart {
+  padding: 0 10px;
 }
