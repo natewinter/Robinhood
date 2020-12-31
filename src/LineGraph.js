@@ -3,13 +3,6 @@ import { Line } from "react-chartjs-2";
 import "./LineGraph.css";
 function LineGraph() {
   const [graphData, setGraphData] = useState([]);
-  const data = [
-    { x: 10, y: 20 },
-    { x: 15, y: 10 },
-    { x: 25, y: 24 },
-    { x: 5, y: 19 },
-    { x: 12, y: 4 },
-  ];
 
   const createMockData = () => {
     let data = [];

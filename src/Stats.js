@@ -25,6 +25,7 @@ function Stats() {
       "DIS",
       "SBUX",
     ];
+
     let promises = [];
     stocksList.map((stock) => {
       promises.push(
