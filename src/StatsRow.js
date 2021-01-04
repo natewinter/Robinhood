@@ -2,9 +2,9 @@ import React from "react";
 import "./StatsRow.css";
 import StockSVG from "./stock.svg";
 function StatsRow(props) {
-  console.log(props);
+  // console.log(props);
   const percentage = ((props.price - props.openPrice) / props.openPrice) * 100;
-  console.log(percentage);
+  // console.log(percentage);
   return (
     <div className="row">
       <div className="row_intro">
